@@ -1,0 +1,31 @@
+# Tic-Tac-Toe (Python Console Game)
+
+This is a simple console-based implementation of the classic **Tic-Tac-Toe** game written in Python. Two players take turns entering their moves on a 3×3 grid until one wins or the game ends in a draw.
+
+---
+
+## 🎮 Gameplay
+
+- The game is played on a 3×3 board.
+- Player **X** goes first, followed by player **O**.
+- Players are prompted to enter the row and column number (0–2) where they want to place their mark.
+- The game checks for a win or draw after each move.
+- If a player tries to mark an already filled cell or enters invalid input, they are prompted to try again.
+
+---
+
+## 🧠 Features
+
+- Input validation to prevent crashes from invalid input.
+- Clear display of the game board after each move.
+- Win condition detection for rows, columns, and diagonals.
+- Draw detection when the board is full.
+
+---
+
+## 🖥️ How to Run
+
+Make sure you have Python installed (version 3.x), then run the game using:
+
+```bash
+python tic_tac_toe.py
